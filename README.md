@@ -16,3 +16,9 @@ curl -i localhost:3000
 ```
 openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -nodes
 ```
+
+
+###3 Requesting HTTP/HTTPS Data
+```
+req = http.ClientRequest
+```
