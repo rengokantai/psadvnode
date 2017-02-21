@@ -19,6 +19,12 @@ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -nodes
 
 
 ###3 Requesting HTTP/HTTPS Data
+for client
 ```
 req = http.ClientRequest
+```
+for server
+```
+req = http.IncomingMessage
+res = http.ServerResponse
 ```
