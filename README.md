@@ -28,3 +28,9 @@ for server
 req = http.IncomingMessage
 res = http.ServerResponse
 ```
+
+##7. Node's Common Built-in Libraries
+###1 Working with the Opening System
+```
+os.constants.signals
+```
